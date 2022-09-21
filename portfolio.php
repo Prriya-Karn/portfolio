@@ -259,7 +259,7 @@ others that want to improve themselves</p>
 				cursor: pointer;"></i></a>
 
 				</div>
-							<img id="image1" src="images/project1.jfif">
+							<img id="image1" src="project1.jfif">
 
 
 
@@ -274,7 +274,7 @@ others that want to improve themselves</p>
 					<a href="https://github.com/Prriya-Karn/Students-Grade-Calculator"><i class="fa fa-github" style="font-size:36px;color: black; position: absolute;
 				cursor: pointer; left: 20%; top: 63px;"></i></a>
 				</div>
-			<img id="image2" src="images/project2.jfif">
+			<img id="image2" src="project2.jfif">
 
 
 			</div>
@@ -289,7 +289,7 @@ others that want to improve themselves</p>
 			left: 20%; top: 63px;
 				cursor: pointer;"></i></a>
 				</div>
-			<img id="image3" src="images/project3.png">
+			<img id="image3" src="project3.png">
 
 
 			</div>
