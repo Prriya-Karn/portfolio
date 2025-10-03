@@ -1,1 +1,61 @@
 @import "tailwindcss";
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1f2937;
+  --btn-bg: #3b82f6;
+  --font-body: "Roboto", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  --bg-hero: #f3f4f6
+}
+
+.dark {
+  --bg-color: #111827;
+  --text-color: #ffffff;
+  --btn-bg: #3b82f6;
+  --font-body: "Roboto", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  --bg-hero: #111827
+}
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
