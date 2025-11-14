@@ -58,7 +58,7 @@ const ContactForm = () => {
 
                         {/* Submit Button */}
                         <div className="flex justify-end">
-                            <Button text="submit" width={20} />
+                            <Button text="submit" width={40} />
                         </div>
                     </form>
                 </div>

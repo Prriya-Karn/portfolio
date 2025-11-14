@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter, FaCodepen, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedinIn, FaCode, } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -15,45 +15,18 @@ const Footer = () => {
                 <div className="xl:ml-96 lg:ml-70">
                     <h2 className="text-2xl font-bold mb-4 flex items-start" style={{ fontFamily: "var(--font-body)" }}>SOCIAL</h2>
                     <div style={{ fontFamily: "var(--font-body)" }} className="flex gap-5 text-2xl">
-                        <a
-                            href="https://linkedin.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-[var(--btn-color)] transition"
-                        >
-                            <FaLinkedin />
+                        <a href="https://www.linkedin.com/in/priya-k-1374211b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
+                            <FaLinkedinIn className="text-2xl hover:text-blue-600 cursor-pointer" />
                         </a>
-                        <a
-                            href="https://github.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-[var(--btn-color)] transition"
-                        >
-                            <FaGithub />
+                        <a href="https://x.com/prjah12" target="_blank" rel="noreferrer">
+                            <FaTwitter className="text-2xl hover:text-sky-500 cursor-pointer" />
                         </a>
-                        <a
-                            href="https://twitter.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-[var(--btn-color)] transition"
-                        >
-                            <FaTwitter />
+                        <a href="https://github.com/Prriya-Karn" target="_blank" rel="noreferrer">
+                            <FaGithub className="text-2xl hover:text-gray-800 cursor-pointer" />
                         </a>
-                        <a
-                            href="https://codepen.io"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-[var(--btn-color)] transition"
-                        >
-                            <FaCodepen />
-                        </a>
-                        <a
-                            href="https://youtube.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-[var(--btn-color)] transition"
-                        >
-                            <FaYoutube />
+
+                        <a href="https://leetcode.com/u/user1596V/" target="_blank" rel="noreferrer">
+                            <FaCode className="text-2xl hover:text-gray-800 cursor-pointer" />
                         </a>
                     </div>
                 </div>

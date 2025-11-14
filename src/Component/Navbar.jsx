@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-scroll";
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,9 +11,9 @@ const Navbar = () => {
             {/* Left Section */}
             <div className="flex items-center gap-3">
                 <img
-                    src="../../public/images/project.jpg"
+                    src="../../public/images/Priya2.jpg"
                     alt="profile"
-                    className="w-12 h-12"
+                    className="w-12 h-12 object-cover"
                 />
             </div>
 
@@ -20,18 +22,15 @@ const Navbar = () => {
                 style={{ fontFamily: "var(--font-heading)" }}
                 className="hidden md:flex gap-12 items-center"
             >
-                <a href="#home" className="font-semibold uppercase text-black tracking-wider">
-                    HOME
-                </a>
-                <a href="#about" className="font-semibold uppercase text-black tracking-wider">
+                <Link to="about" smooth={true} duration={500} className="font-semibold hover:text-[var(--btn-bg)]  cursor-pointer uppercase text-black tracking-wider">
                     ABOUT
-                </a>
-                <a href="#projects" className="font-semibold uppercase text-black tracking-wider">
+                </Link>
+                <Link to="projects" smooth={true} duration={500} className="font-semibold hover:text-[var(--btn-bg)] cursor-pointer uppercase text-black tracking-wider">
                     Projects
-                </a>
-                <a href="#contact" className="uppercase font-semibold text-black tracking-wider">
+                </Link>
+                <Link to="contact" smooth={true} duration={500} className="uppercase font-semibold hover:text-[var(--btn-bg)] cursor-pointer text-black tracking-wider">
                     Contact
-                </a>
+                </Link>
             </div>
 
             {/* Mobile Hamburger */}

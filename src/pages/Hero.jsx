@@ -1,35 +1,32 @@
-import { FaLinkedin, FaTwitter, FaYoutube, FaGithub, FaBook } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaYoutube, FaGithub, FaBook, FaCode } from "react-icons/fa";
 import Button from "../Component/Button";
 import { Fragment } from "react";
+import { Link } from "react-scroll";
 
 const Hero = () => {
     return (
 
         <Fragment>
             <section
-                id="contact"
                 className="min-h-screen flex flex-col  items-center justify-center bg-[url('https://www.transparenttextures.com/patterns/hexellence.png')] bg-gray-100 px-4"
             >
                 <div className="flex w-full">
                     {/* Left Sidebar */}
                     <div className=" bg-white hidden  py-12 shadow-md rounded-lg w-16
                      lg:flex flex-col items-center justify-center gap-6">
-                        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/priya-k-1374211b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
                             <FaLinkedin className="text-2xl hover:text-blue-600 cursor-pointer" />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                        <a href="https://x.com/prjah12" target="_blank" rel="noreferrer">
                             <FaTwitter className="text-2xl hover:text-sky-500 cursor-pointer" />
                         </a>
-                        <a href="https://youtube.com" target="_blank" rel="noreferrer">
-                            <FaYoutube className="text-2xl hover:text-red-600 cursor-pointer" />
-                        </a>
-                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Prriya-Karn" target="_blank" rel="noreferrer">
                             <FaGithub className="text-2xl hover:text-gray-800 cursor-pointer" />
                         </a>
-                        <a href="https://yourblog.com" target="_blank" rel="noreferrer">
-                            <FaBook className="text-2xl hover:text-green-600 cursor-pointer" />
-                        </a>
 
+                        <a href="https://leetcode.com/u/user1596V/" target="_blank" rel="noreferrer">
+                            <FaCode className="text-2xl hover:text-gray-800 cursor-pointer" />
+                        </a>
 
 
                     </div>
@@ -44,7 +41,10 @@ const Hero = () => {
                                 A Result-Oriented Web Developer building and managing Websites and Web
                                 Applications that leads to the success of the overall product
                             </p>
-                            <Button text="projects" width={60} />
+                            <Link to="projects" smooth="true" duration="500">
+                                <Button text="projects" width={60} />
+                            </Link>
+
                         </div>
                     </div>
                 </div>
