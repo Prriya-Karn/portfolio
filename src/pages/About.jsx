@@ -9,14 +9,16 @@ const About = () => {
         "CSS",
         "JavaScript",
         "React",
-        "Wordpress",
-        "PHP",
-        "SASS",
+        "TailwindCss",
+        "Redux",
+        "API Integration",
         "GIT",
         "Github",
         "Responsive Design",
-        "SEO",
+        "Problem Solving",
         "Terminal",
+        "DSA",
+        "Open Source Contributor"
     ];
 
     return (
