@@ -11,7 +11,7 @@ const Navbar = () => {
             {/* Left Section */}
             <div className="flex items-center gap-3">
                 <img
-                    src="../../public/images/Priya2.jpg"
+                    src="images/Priya2.jpg"
                     alt="profile"
                     className="w-12 h-12 object-cover"
                 />
