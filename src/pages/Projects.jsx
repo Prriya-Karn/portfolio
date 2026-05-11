@@ -18,7 +18,7 @@ const proData = [
         img: "images/project.jpg",
         desc: "A modern travel website built with React, featuring a clean UI, smooth navigation, and responsive design. It allows users to explore destinations, view travel packages, and experience an engaging interface optimized for performance and usability.",
         githubLink: "https://github.com/Prriya-Karn/tripverse",
-        liveLink: "https://github.com/Prriya-Karn/tripverse"
+        liveLink: "https://tripverse-nine.vercel.app/"
     },
     {
         id: 3,
