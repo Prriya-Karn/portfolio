@@ -7,27 +7,35 @@ const proData = [
     {
         id: 1,
         name: "CodePilot webapp",
-        img: "images/ss.png",
+        img: "images/project.jpg",
         desc: "I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community.Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming",
         githubLink: "https://github.com/Prriya-Karn/CodePilot",
         liveLink: "https://code-pilot-inky.vercel.app/"
     },
     {
         id: 2,
-        name: "porsche webapp",
+        name: "TripVerse Travel",
         img: "images/project.jpg",
-        desc: "I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community.Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming",
-        githubLink: "https://github.com/Prriya-Karn/PorscheWebApp",
-        liveLink: "https://porsche-web-app.vercel.app/"
+        desc: "A modern travel website built with React, featuring a clean UI, smooth navigation, and responsive design. It allows users to explore destinations, view travel packages, and experience an engaging interface optimized for performance and usability.",
+        githubLink: "https://github.com/Prriya-Karn/tripverse",
+        liveLink: "https://github.com/Prriya-Karn/tripverse"
     },
     {
         id: 3,
-        name: "chatgpt",
+        name: "Genesis PreSchool Website",
         img: "images/project.jpg",
-        desc: "I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community.Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming",
-        githubLink: "https://github.com/Prriya-Karn/mychatgpt",
-        liveLink: "https://mychatgpt-self-nine.vercel.app/"
+        desc: "A professional preschool website designed for Genesis Kids School with a user-friendly interface, admission form integration, and responsive layout. Built to showcase school facilities, programs, and provide a seamless experience for parents.",
+        githubLink: "https://github.com/Prriya-Karn/genesis-kids-school",
+        liveLink: "https://genesis-kids-school.vercel.app/"
     },
+    {
+        id: 4,
+        name: "My Freelance Website",
+        img: "images/project.jpg",
+        desc: "A personal freelance portfolio website to showcase services, projects, and client work. Designed with modern UI/UX principles, smooth animations, and clear call-to-action sections to convert visitors into potential clients.",
+        githubLink: "https://github.com/Prriya-Karn/business",
+        liveLink: "https://business-one-mocha.vercel.app/"
+    }
 
 ];
 
